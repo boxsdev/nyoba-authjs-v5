@@ -29,7 +29,7 @@ const SiteFooter = () => {
         <div className="flex items-center justify-center text-xs">
           <p className="text-sm text-muted-foreground">
             made with 💀 © {new Date().getFullYear()} {siteConfig.name} by{" "}
-            <span className="text-xs font-medium text-foreground">
+            <span className="decoration-spotify text-xs font-medium text-foreground underline decoration-2 underline-offset-4">
               {siteConfig.author}
             </span>
           </p>
